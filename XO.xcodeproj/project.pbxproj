@@ -11,6 +11,7 @@
 		F66C23182C487E1300E275B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C23172C487E1300E275B7 /* ContentView.swift */; };
 		F66C231A2C487E1400E275B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66C23192C487E1400E275B7 /* Assets.xcassets */; };
 		F66C231D2C487E1400E275B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66C231C2C487E1400E275B7 /* Preview Assets.xcassets */; };
+		F66C23242C4884B300E275B7 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66C23232C4884B300E275B7 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F66C23172C487E1300E275B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F66C23192C487E1400E275B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F66C231C2C487E1400E275B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F66C23232C4884B300E275B7 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				F66C23172C487E1300E275B7 /* ContentView.swift */,
 				F66C23192C487E1400E275B7 /* Assets.xcassets */,
 				F66C231B2C487E1400E275B7 /* Preview Content */,
+				F66C23232C4884B300E275B7 /* GameView.swift */,
 			);
 			path = XO;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F66C23182C487E1300E275B7 /* ContentView.swift in Sources */,
+				F66C23242C4884B300E275B7 /* GameView.swift in Sources */,
 				F66C23162C487E1300E275B7 /* XOApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,12 +273,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XO/Preview Content\"";
 				DEVELOPMENT_TEAM = NQDA8RZ25G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = XO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -298,12 +305,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"XO/Preview Content\"";
 				DEVELOPMENT_TEAM = NQDA8RZ25G;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = XO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
